@@ -1,0 +1,5 @@
+import "google/protobuf/empty.proto";
+
+service DemoService {
+  rpc DoNothing(google.protobuf.Empty) returns (google.protobuf.Empty) {}
+}
